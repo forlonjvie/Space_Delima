@@ -1,0 +1,17 @@
+Assumptions:
+> The application is designed to provide users with information about space, including celestial events, images, and other data, based on a selected date or search query.
+> Users are expected to have a basic understanding of how to navigate a web application, including using a date picker and search functionality.
+> The data retrieved from NASA's API is assumed to be up-to-date and accurate as per NASA's standards.
+> The application is intended for educational and informational purposes, and it assumes users will use the data in a non-commercial context.
+> Users are assumed to have a stable internet connection to interact with the application effectively.
+
+Limitations:
+> API Dependency: The application relies heavily on NASA's API. If the API is unavailable, down, or if there are changes to its structure, the application may not function correctly.
+> Data Range: The date picker feature may only allow selection within a specific range of dates for which NASA provides data. Dates outside of this range may not yield results.
+> Data Accuracy: The application presents data as provided by NASA’s API, without additional verification. Therefore, any inaccuracies or errors in the API data will be reflected in the application.
+> Search Limitations: The search functionality is dependent on the API's search capabilities, which may have limitations regarding the breadth and depth of searchable terms.
+> Rate Limits: NASA's API may have rate limits that restrict the number of requests that can be made in a given time frame. Exceeding this limit could lead to temporary unavailability of data.
+> Browser Compatibility: The application is optimized for modern web browsers. Users with outdated or non-standard browsers may experience reduced functionality or display issues.
+> No Offline Mode: The application requires an active internet connection to function and does not support offline access to data.
+> Performance: Depending on the user's internet speed and the load on NASA's servers, there may be delays in retrieving and displaying data.
+> Limited Customization: The application offers predefined options for user interactions, and there may be limited ability for users to customize their experience beyond these options.
